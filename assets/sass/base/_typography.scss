@@ -1,0 +1,37 @@
+$font-family: Jost;
+$fon-family-second: Poppins;
+
+
+*{
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.header__itemsdiv__button{
+button{
+    text-align: center  ;
+    font-size: 16px;
+overlay: 1;
+}
+}
+.header__end{
+    &__cart{
+        font-size: 24px;
+    }
+    &__login{
+        font-size: 24px;
+    }
+}
+.one__text{
+    text-align: center;
+    h1{
+        padding: 80px;
+        font-size: 80px;
+        
+    }
+    p{
+        font-size: 16px;
+        font-weight: 700;
+    }
+}

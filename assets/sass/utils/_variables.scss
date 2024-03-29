@@ -1,0 +1,46 @@
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    background-image: url(https://arid-html.vercel.app/main-file/dist/assets/images/hero/h4.webp);
+}
+
+.header__itemsdiv__button {
+    button {
+        color: white;
+        background: orange;
+        padding: 20px;
+    }
+
+    a {
+        color: rgb(255, 255, 255);
+    }
+}
+
+.header__itemsdiv__lists {
+    a {
+        color: white;
+    }
+}
+.header__end{
+    background: fixed;
+    &__cart{
+        color: white;
+    }
+&__login{
+    color: white;
+}
+}
+.one__items{
+   .one__text{
+    h1{
+        text-shadow: hsla(0, 0%, 100%, 0.6) -2px 2px 30px;
+        color: transparent;
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: white;
+    }
+    p{
+        color: white;
+    }
+   }
+}
